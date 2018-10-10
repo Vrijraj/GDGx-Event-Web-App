@@ -18,18 +18,18 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 | **Fast and optimized** | 100/100 PWA on Lighthouse |
 | **Works offline** | Can works offline |
 | **Mobile first** | Mobo Friendly Web app can be installed as a native app on your phone |
-| **SEO optimized** | index all content and get to the top in search results |
-| **Speakers and schedule management** | keep and update all information in the JSON File |
+| **SEO optimized** | Index all content and get to the top in search results |
+| **Speakers and schedule management** | Keep and update all information in the JSON File |
 | **Registration** | Attendees can register for the event using Firebase Realtime Database |
 
 
 ## Getting Started
 1. [Fork repository](https://github.com/Vrijraj/gdgx-event-web-app/fork) and clone it locally
-1. Setup Environment
+2. Setup Environment
    * Install Firebase CLI: `npm i -g firebase-tools` or `yarn global add firebase-tools`
-1. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/): `firebase login`
-1. Update [Firebase Web Setup & Basic Info](/index.html), [Venue Map](/views/attending.html), [manifest.json](/manifest.json) and [Resources](/data)
-1. Update Firebase.json file
+3. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/): `firebase login`
+4. Update [Firebase Web Setup & Basic Info](/index.html), [Venue Map](/views/attending.html), [manifest.json](/manifest.json) and [Resources](/data)
+5. Update Firebase.json file
   ```js 
   {
   "hosting": {
